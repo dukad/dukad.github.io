@@ -53,7 +53,7 @@ p {
 .HomeHeader .hcontainer {
     position: relative;
     z-index: 3;
-    top: 55vh;
+    top: min(55vh, 30vw);
     left: 1vw;
     float: left;
     background-color: transparent;

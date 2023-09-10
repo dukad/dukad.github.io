@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.PhotoofMe {
+  width: 55vh; /* Adjust the width and height as needed */
+  height: 55vh;
+  border-radius: 50%;
+  object-fit: cover; /* Maintains the aspect ratio of the image */
+}
+
+
+.Header {
+  background-color: #141414;
+  min-height: 100vh;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+.Header-Content{
+  width: 50%;
+}
+
+.PhotoofMe {
+  margin: 5vw
+}
+
+.Introduction {
+  margin: 5vw
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(255, 255, 255);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(196, 196, 196);
+}
+
+/* selected link */
+a:active {
+  color: rgb(193, 193, 193);
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,66 @@
+body {
+    scroll-behavior: smooth;
+    
+  }
+  .hero {
+position: relative;
+min-height: 93vh;
+padding: 100px 0;
+color: #fff; /* fallback for text */
+/* gradient first, then image — gradient tints the image only */
+background-image:
+  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url('../images/banner.jpg');
+background-size: fill;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+/* ensure content sits above the background */
+.hero .container {
+position: relative;
+z-index: 2;
+}
+
+/* text shadow and image shadow (optional) */
+.hero h1,
+.hero p {
+text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.hero .rounded-circle {
+width: 150px;
+height: 150px;
+object-fit: cover;
+box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+  .project-img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .narrow-wrapper {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.navbar {
+  min-height: 5vh;
+  font-size:20px;
+}
+
+
+/* Rotate arrow when expanded */
+.btn[aria-expanded="true"] .arrow-icon {
+  align-self: center;
+  transform: rotate(180deg);
+  vertical-align: middle;
+  display: inline-block;
+}
+.arrow-icon {
+  font-size: 1.25rem; /* size of arrow */
+  transition: transform 0.3s ease;
+  align-self: center;
+  vertical-align: middle;
+  display: inline-block;
+}

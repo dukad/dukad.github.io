@@ -6,7 +6,7 @@ body {
 position: relative;
 min-height: 93vh;
 padding: 100px 0;
-color: #fff; /* fallback for text */
+color: hsla(56, 100%, 97%, 0.912); /* fallback for text */
 /* gradient first, then image — gradient tints the image only */
 background-image:
   linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
@@ -47,6 +47,7 @@ box-shadow: 0 8px 20px rgba(0,0,0,0.6);
 .navbar {
   min-height: 5vh;
   font-size:20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
 }
 
 

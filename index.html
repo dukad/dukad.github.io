@@ -402,6 +402,59 @@ processing acoustic data with microphones and amplifiers, then transmitting via 
       <h2 class="text-center mb-5">Projects</h2>
       <div class="row g-4">
 
+        <!-- Project COURSE PROJECTS -->
+        <div class="col-md-12">
+          <div class="card h-100">
+            <img src="images/columbia/columbia.jpg" class="card-img-top project-img" alt="Project 1" style="align-self: center;object-position: 70% 10%;"/>
+            <div class="card-body">
+              <h5 class="card-title">Course Projects</h5>
+              <p class="card-text">Notable Course Projects at Northeastern and Columbia.</p>
+              <!-- Expandable Content -->
+              <div class="collapse mt-3" id="project4">
+                  <p> 
+                    • ELEN6320 - mm-Wave IC Design (Columbia University) - 60GHz Receiver. Designed and simulated a 60GHz front-end in Cadence Virtuoso using a 90nm PDK. 
+                    I was in charge of the LNA, and LO buffer design. Using a 2 stage LNA, I was able to achieve 2.45dB NF and 12.21dB gain, with good input and output matching at 50 Ohms (-18.16dB S11) and a current consumption of 18mA. 
+                    All the inductors for the project were designed and simulated in ADS, then imported to Cadence as n-port blocks.
+                    Shown are the single-stage design (cascaded twice in final), and s-parameters. <br>
+                  </p>
+
+                  <img src="images/columbia/LNAdesign.png" style="max-width: 33%;">
+                  <img src="images/columbia/SparamsLNA.png" style="max-width: 33%;">
+
+                  <br><br>
+                  <p> 
+                    • ELEN6340 - Power Management ICs (Columbia University) - High Efficiency, High Power Buck Converter. 
+                    Designed a buck converter with Type III Compensation and 90% efficiency across 2-3A load conditions.<br><br>
+                  </p> 
+                  <img src="images/columbia/buckconverter.png" style="max-width: 70%;">
+                  <br><br>
+                  <p>
+                    • EECE5649 - CMOS Analog IC Design (Northeastern University) - 1MHz 4th-Order Gm-C Biquad Low Pass Filter. The final result had 82uW of power consumption, and 0dB of passband gain. <br><br>
+                    • EECE4632 - Hardware-Software Codesign for FGPA-Based Systems (Northeastern University) - Real Time Guitar Pedal Effects on FPGA. Using Vitis HLS (based on C language),
+                    implemented distortion, dynamic range compression, and wah effects. The most demanding of these was the the wah effect, which required implementation of an array FIR bandpass filters, 
+                    where a control signal indexed which to choose which filter to use. <br><br>
+                  </p>
+
+
+                <p>
+                </p>
+              </div>
+            
+              <!-- Centered Arrow Button -->
+              <button class="btn btn-link d-block mx-auto" 
+                      style="width: 40px;" 
+                      type="button" 
+                      data-bs-toggle="collapse" 
+                      data-bs-target="#project4" 
+                      aria-expanded="false" 
+                      aria-controls="project4">
+                <i class="bi bi-chevron-down arrow-icon"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--############################################ END PROJECT course ########################################################-->
+
 
         <!-- Project DRIFT -->
         <div class="col-md-12">
@@ -488,6 +541,8 @@ processing acoustic data with microphones and amplifiers, then transmitting via 
           </div>
         </div>
         <!--############################################ END PROJECT CSTAR ########################################################-->
+        
+
         
         
         <!-- Project ROBOUMP -->

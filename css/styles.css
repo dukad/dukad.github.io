@@ -1,6 +1,6 @@
 body {
     scroll-behavior: smooth;
-    
+      
   }
   .hero {
 position: relative;
@@ -47,7 +47,7 @@ box-shadow: 0 8px 20px rgba(0,0,0,0.6);
 .navbar {
   min-height: 5vh;
   font-size:20px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 100px 100px rgba(0, 0, 0);
 }
 
 
@@ -64,4 +64,8 @@ box-shadow: 0 8px 20px rgba(0,0,0,0.6);
   align-self: center;
   vertical-align: middle;
   display: inline-block;
+}
+
+.card {
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
 }
